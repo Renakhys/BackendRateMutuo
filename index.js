@@ -49,7 +49,7 @@ app.post('/devices/', (req, res) => {
   HandleRequest(req, res, () => db.InsertDeviceIfNotExists(req.body).then(s => s ? "aggiunto" : "già presente"));
 })
 
-app.listen(port, async () => {
+app.listen(port, "0.0.0.0", async () => {
   db.InitializeDb();  
   console.log(`Example app listening at http://localhost:${port}`)
 })
