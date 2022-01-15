@@ -1,0 +1,19 @@
+{
+  "name": "ratebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}
