@@ -221,5 +221,6 @@ module.exports = {
   UpdateStatoRata,
 
   GetAllDevices,
-  InsertDeviceIfNotExists
+  InsertDeviceIfNotExists,
+  InviaNotificaATuttiDevices
 }
