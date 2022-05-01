@@ -88,7 +88,7 @@ second ( optional )
 
 Schedule tasks to be run on the server.
 */
-cron.schedule('0 12 * * * *', async function () {
+cron.schedule('0 12 * * *', async function () {
   //console.log('running a task every minute');
   const rata = await checkRateInRitardo();
 
